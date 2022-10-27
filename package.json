@@ -8,7 +8,7 @@
     "url": "https://github.com/asmfx/search-fs.git"
   },
   "scripts": {
-    "publish:package": "npm publish --access=public",
+    "check:publish": "npm publish --access=public --dry-run",
     "publish:patch": "npm version patch && npm publish --access=public",
     "build": "tsc"
   },
@@ -31,6 +31,9 @@
     "lodash": "^4.17.21"
   },
   "files": [
-    "LICENSE.md"
+    "LICENSE.md",
+    "README.md",
+    "dist/*",
+    "src/*"
   ]
 }
