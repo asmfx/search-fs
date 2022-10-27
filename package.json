@@ -3,6 +3,10 @@
   "version": "0.0.3",
   "description": "Text search functions for filesystem",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asmfx/search-fs.git"
+  },
   "scripts": {
     "publish:package": "npm publish --access=public",
     "publish:patch": "npm version patch && npm publish --access=public",
