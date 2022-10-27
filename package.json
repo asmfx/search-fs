@@ -1,6 +1,6 @@
 {
   "name": "@asmfx/search-fs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Text search functions for filesystem",
   "main": "dist/index.js",
   "scripts": {
