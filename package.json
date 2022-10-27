@@ -2,8 +2,9 @@
   "name": "@asmfx/search-fs",
   "version": "0.0.1",
   "description": "Text search functions for filesystem",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "publish:package": "npm publish --access=public",
     "build": "tsc"
   },
   "keywords": [
