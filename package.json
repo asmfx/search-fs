@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "publish:package": "npm publish --access=public",
+    "publish:patch": "npm version patch && npm publish --access=public",
     "build": "tsc"
   },
   "keywords": [
